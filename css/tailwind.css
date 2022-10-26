@@ -684,6 +684,18 @@ video {
   margin-bottom: 20px;
 }
 
+.mb-\[21px\] {
+  margin-bottom: 21px;
+}
+
+.mb-\[95px\] {
+  margin-bottom: 95px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
 .mr-auto {
   margin-right: auto;
 }
@@ -838,6 +850,10 @@ video {
 
 .gap-\[50px\] {
   gap: 50px;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .gap-\[16px\] {
@@ -1086,6 +1102,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .leading-\[28px\] {
