@@ -156,6 +156,7 @@ const themeSwitch = () => {
     }
 }
 
+const nav = document.querySelector('header nav');
 window.addEventListener('click',(e)=>{
     if(e.target.closest('.nav-link')){
         if(e.target.closest('.nav-link').classList.contains('active')){
