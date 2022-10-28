@@ -193,41 +193,104 @@ themeCheck();
     <div class="container">
         <p class="text-grey-black dark:text-white text-[45px] text-center font-bold mb-[32px]">Why privacy <span class="gradient-text">matters</span></p>
         <p class="text-center text-[20px] font-medium mb-[86px] text-black dark:text-white">Preserving the privacy of your meta-data - <span class="text-active-blue">who you talk with</span> - protect you from:</p>
-        <div class="flex flex-col lg:flex-row gap-[20px] mb-[90px]">
-            <div class="bg-white dark:bg-transparent px-[34px] flex flex-col rounded-[12px] dark:rounded-[6px] shadow-[0px_50px_61px_rgba(0,0,0,0.12)] dark:shadow-none flex-[1] border-gradient">
-                <div class="flex items-center justify-center h-[215px]">
-                    <img src="/img/new/privacy-section-1.svg" alt="">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px] mb-[90px]">
+
+            
+                <div class="bg-white dark:bg-transparent px-[34px] flex flex-col rounded-[12px] dark:rounded-[6px] shadow-[0px_50px_61px_rgba(0,0,0,0.12)] dark:shadow-none flex-[1] border-gradient">
+                    <div class="flex items-center justify-center h-[215px]">
+                        <img src="/img/new/privacy-section-1.svg" alt="">
+                    </div>
+                    <div class="h-[152px] flex flex-col items-center justify-between">
+                        <p class="text-center font-medium leading-[28px] text-grey-black dark:text-white">Invasive and manipulative advertising and price discrimination</p>
+                        
+                            <a href="javascript:void(0);" data-show-overlay="why-privacy-matters-1" class="open-overlay-btn underline text-primary-light dark:text-primary-dark block text-[16px] underline-offset-2 mb-[53px]">Learn more</a>
+                            
+    
+    <div id="why-privacy-matters-1" class="overlay hidden fixed top-0 left-0 bottom-0 right-0 before:absolute before:w-full before:h-full bg-transparent before:bg-secondary-bg-light before:opacity-90 items-center justify-center p-10 z-[10000]">
+        <div class="overlay-card max-w-[1276px] bg-white opacity-100 max-h-[660px] z-[10001] rounded-md shadow-[0px_3px_12px_rgba(0,0,0,0.2)] p-14 overflow-auto scale-100">
+            <h1 class="text-3xl font-bold text-active-blue mb-6">Title</h1>
+            <div class="flex gap-10 justify-between">
+                <div class="max-w-md">
+                    <div class="text-grey-black dark:text-white flex flex-col gap-6 text-base">
+                        
+                            <p>Unlike any other existing messaging platform, SimpleX has no identifiers assigned to the users –- not even random numbers. This protects the privacy of who you are communicating with, hiding it from SimpleX platform servers and from any observers.</p>
+                        
+                            <p>E2E encryption in each queue to prevent traffic correlation between queues in case TLS is compromised.</p>
+                        
+                    </div>
                 </div>
-                <div class="h-[152px] flex flex-col items-center justify-between">
-                    <p class="text-center font-medium leading-[28px] text-grey-black dark:text-white">Invasive and manipulative advertising and price discrimination</p>
-                    <a href="" class="underline text-primary-light dark:text-primary-dark block text-[16px] underline-offset-2 mb-[53px]">Learn more</a>
-                </div>
+
+                
+                    <div class="max-w-md">
+                        <div class="flex items-center justify-center">
+                            <img class="w-full max-w-md min-w-[300px]" src="/img/new/privacy-section-1.svg" alt="">
+                        </div>
+                    </div>
+                
             </div>
 
-            <div class="bg-white dark:bg-transparent px-[34px] flex flex-col rounded-[12px] dark:rounded-[6px] shadow-[0px_50px_61px_rgba(0,0,0,0.12)] dark:shadow-none flex-[1] border-gradient">
-                <div class="flex items-center justify-center h-[215px]">
-                    <img src="/img/new/privacy-section-2.svg" alt="">
+            <svg class="fill-grey-black dark:fill-white fixed right-8 top-8 cursor-pointer close-overlay-btn" id="cross" width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.7973 11.5525L7.59762 6.49833L12.7947 1.44675C13.055 1.19371 13.0658 0.771991 12.8188 0.505331C12.5718 0.238674 12.1602 0.227644 11.8999 0.480681L6.65343 5.58028L1.09979 0.182228C0.839522 -0.070157 0.427909 -0.059127 0.18094 0.207531C-0.0660305 0.474191 -0.0552645 0.895911 0.205003 1.14894L5.70862 6.49833L0.20247 11.851C-0.0577975 12.104 -0.0685635 12.5257 0.178407 12.7924C0.306324 12.9306 0.477936 13 0.650181 13C0.811033 13 0.971873 12.9397 1.09726 12.817L6.65343 7.41639L11.9025 12.5186C12.0285 12.6406 12.1893 12.7015 12.3495 12.7015C12.5218 12.7015 12.6934 12.6321 12.8213 12.4939C13.0689 12.2273 13.0582 11.8062 12.7973 11.5525Z"/>
+            </svg>
+        </div>
+    </div>
+
+                        
+                    </div>
                 </div>
-                <div class="h-[152px] flex flex-col items-center justify-between">
-                    <p class="text-center font-medium leading-[28px] text-grey-black dark:text-white">Manipulation of elections</p>
+            
+                <div class="bg-white dark:bg-transparent px-[34px] flex flex-col rounded-[12px] dark:rounded-[6px] shadow-[0px_50px_61px_rgba(0,0,0,0.12)] dark:shadow-none flex-[1] border-gradient">
+                    <div class="flex items-center justify-center h-[215px]">
+                        <img src="/img/new/privacy-section-2.svg" alt="">
+                    </div>
+                    <div class="h-[152px] flex flex-col items-center justify-between">
+                        <p class="text-center font-medium leading-[28px] text-grey-black dark:text-white">Manipulation of elections</p>
+                        
+                            <a href="javascript:void(0);" data-show-overlay="why-privacy-matters-2" class="open-overlay-btn underline text-primary-light dark:text-primary-dark block text-[16px] underline-offset-2 mb-[53px]">Learn more</a>
+                            
+    
+    <div id="why-privacy-matters-2" class="overlay hidden fixed top-0 left-0 bottom-0 right-0 before:absolute before:w-full before:h-full bg-transparent before:bg-secondary-bg-light before:opacity-90 items-center justify-center p-10 z-[10000]">
+        <div class="overlay-card max-w-[1276px] bg-white opacity-100 max-h-[660px] z-[10001] rounded-md shadow-[0px_3px_12px_rgba(0,0,0,0.2)] p-14 overflow-auto scale-100">
+            <h1 class="text-3xl font-bold text-active-blue mb-6">Title</h1>
+            <div class="flex gap-10 justify-between">
+                <div class="max-w-md">
+                    <div class="text-grey-black dark:text-white flex flex-col gap-6 text-base">
+                        
+                            <p>Unlike any other existing messaging platform, SimpleX has no identifiers assigned to the users –- not even random numbers. This protects the privacy of who you are communicating with, hiding it from SimpleX platform servers and from any observers.</p>
+                        
+                    </div>
                 </div>
+
+                
             </div>
 
-            <div class="bg-white dark:bg-transparent px-[34px] flex flex-col rounded-[12px] dark:rounded-[6px] shadow-[0px_50px_61px_rgba(0,0,0,0.12)] dark:shadow-none flex-[1] border-gradient">
-                <div class="flex items-center justify-center h-[215px]">
-                    <img src="/img/new/privacy-section-3.svg" alt="">
+            <svg class="fill-grey-black dark:fill-white fixed right-8 top-8 cursor-pointer close-overlay-btn" id="cross" width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.7973 11.5525L7.59762 6.49833L12.7947 1.44675C13.055 1.19371 13.0658 0.771991 12.8188 0.505331C12.5718 0.238674 12.1602 0.227644 11.8999 0.480681L6.65343 5.58028L1.09979 0.182228C0.839522 -0.070157 0.427909 -0.059127 0.18094 0.207531C-0.0660305 0.474191 -0.0552645 0.895911 0.205003 1.14894L5.70862 6.49833L0.20247 11.851C-0.0577975 12.104 -0.0685635 12.5257 0.178407 12.7924C0.306324 12.9306 0.477936 13 0.650181 13C0.811033 13 0.971873 12.9397 1.09726 12.817L6.65343 7.41639L11.9025 12.5186C12.0285 12.6406 12.1893 12.7015 12.3495 12.7015C12.5218 12.7015 12.6934 12.6321 12.8213 12.4939C13.0689 12.2273 13.0582 11.8062 12.7973 11.5525Z"/>
+            </svg>
+        </div>
+    </div>
+
+                        
+                    </div>
                 </div>
-                <div class="h-[152px] flex flex-col items-center justify-between">
-                    <p class="text-center font-medium leading-[28px] text-grey-black dark:text-white">Protect against prosecution when you are innocent</p>
+            
+                <div class="bg-white dark:bg-transparent px-[34px] flex flex-col rounded-[12px] dark:rounded-[6px] shadow-[0px_50px_61px_rgba(0,0,0,0.12)] dark:shadow-none flex-[1] border-gradient">
+                    <div class="flex items-center justify-center h-[215px]">
+                        <img src="/img/new/privacy-section-3.svg" alt="">
+                    </div>
+                    <div class="h-[152px] flex flex-col items-center justify-between">
+                        <p class="text-center font-medium leading-[28px] text-grey-black dark:text-white">Protect against prosecution when you are innocent</p>
+                        
+                    </div>
                 </div>
-            </div>
+            
+
         </div>
         <p class="text-center w-full max-w-[900px] text-[20px] leading-[28px] m-auto text-black dark:text-white">Or choose the app that lets you send stickers and offer lots of fun features in exchange for selling your data to the highest bidder.</p>
     </div>
 </section>
 
 
-<!-- Why SimpleX is unique -->
 <section class="bg-primary-bg-light dark:bg-primary-bg-dark py-[85px] overflow-hidden">
     <div class="container scale-100">
         <p class="text-grey-black dark:text-white text-[45px] text-center font-bold mb-[32px]">Why Simplex is <span class="gradient-text">unique</span></p>
@@ -358,77 +421,82 @@ themeCheck();
     </div>
 </section>
 
-<!------------------------------FEATURES---------------------------------------------------------------------->
+
 <section class="bg-secondary-bg-light dark:bg-secondary-bg-dark py-[60px]">
     <div class="container flex flex-col items-center gap-[50px]">
-        <p class="text-[45px] text-center font-bold gradient-text">
-            Features
-        </p>
+        <p class="text-[45px] text-center font-bold gradient-text">Features</p>
 
         <div class="mb-[50px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-20">
-            <div class="flex flex-col items-center">
-                <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
-                    <img src="/img/new/feature-1.svg" alt="" class="dark:hidden"/>
-                    <img src="/img/new/feature-1-dark.svg" alt="" class="hidden dark:block"/>
+            
+                <div class="flex flex-col items-center">
+                    <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
+                        <img src="/img/new/feature-1.svg" alt="" class="dark:hidden"/>
+                        <img src="/img/new/feature-1-dark.svg" alt="" class="hidden dark:block"/>
+                    </div>
+                    <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">Disappearing messages (comings soon)</p>
                 </div>
-                <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">Disappearing messages (comings soon)</p>
-            </div>
-            <div class="flex flex-col items-center">
-                <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
-                    <img src="/img/new/feature-2.svg" alt="" class="dark:hidden"/>
-                    <img src="/img/new/feature-2-dark.svg" alt="" class="hidden dark:block"/>
+            
+                <div class="flex flex-col items-center">
+                    <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
+                        <img src="/img/new/feature-2.svg" alt="" class="dark:hidden"/>
+                        <img src="/img/new/feature-2-dark.svg" alt="" class="hidden dark:block"/>
+                    </div>
+                    <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">Disappearing messages (comings soon)</p>
                 </div>
-                <p class="text-grey-black dark:text-white text-[16px] text-center font-medium w-full max-w-[265px]">E2E encrypted audio and video WebRTC calls</p>
-            </div>
-            <div class="flex flex-col items-center">
-                <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
-                    <img src="/img/new/feature-3.svg" alt="" class="dark:hidden"/>
-                    <img src="/img/new/feature-3-dark.svg" alt="" class="hidden dark:block"/>
+            
+                <div class="flex flex-col items-center">
+                    <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
+                        <img src="/img/new/feature-3.svg" alt="" class="dark:hidden"/>
+                        <img src="/img/new/feature-3-dark.svg" alt="" class="hidden dark:block"/>
+                    </div>
+                    <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">Disappearing messages (comings soon)</p>
                 </div>
-                <p class="text-grey-black dark:text-white text-[16px] text-center font-medium w-full max-w-[265px]">Decentralised secret groups – these groups do NOT have network-wide identifiers.</p>
-            </div>
-            <div class="flex flex-col items-center">
-                <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
-                    <img src="/img/new/feature-4.svg" alt="" class="dark:hidden"/>
-                    <img src="/img/new/feature-4-dark.svg" alt="" class="hidden dark:block"/>
+            
+                <div class="flex flex-col items-center">
+                    <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
+                        <img src="/img/new/feature-4.svg" alt="" class="dark:hidden"/>
+                        <img src="/img/new/feature-4-dark.svg" alt="" class="hidden dark:block"/>
+                    </div>
+                    <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">Disappearing messages (comings soon)</p>
                 </div>
-                <p class="text-grey-black dark:text-white text-[16px] text-center font-medium w-full max-w-[265px]">E2E encrypted voice messages (coming soon)</p>
-            </div>
-
-            <div class="flex flex-col items-center">
-                <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
-                    <img src="/img/new/feature-5.svg" alt="" class="dark:hidden"/>
-                    <img src="/img/new/feature-5-dark.svg" alt="" class="hidden dark:block"/>
+            
+                <div class="flex flex-col items-center">
+                    <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
+                        <img src="/img/new/feature-5.svg" alt="" class="dark:hidden"/>
+                        <img src="/img/new/feature-5-dark.svg" alt="" class="hidden dark:block"/>
+                    </div>
+                    <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">Disappearing messages (comings soon)</p>
                 </div>
-                <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">E2E encrypted text messages with markdown support</p>
-            </div>
-            <div class="flex flex-col items-center">
-                <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
-                    <img src="/img/new/feature-6.svg" alt="" class="dark:hidden"/>
-                    <img src="/img/new/feature-6-dark.svg" alt="" class="hidden dark:block"/>
+            
+                <div class="flex flex-col items-center">
+                    <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
+                        <img src="/img/new/feature-6.svg" alt="" class="dark:hidden"/>
+                        <img src="/img/new/feature-6-dark.svg" alt="" class="hidden dark:block"/>
+                    </div>
+                    <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">Disappearing messages (comings soon)</p>
                 </div>
-                <p class="text-grey-black dark:text-white text-[16px] text-center font-medium w-full max-w-[265px]">E2E encrypted pictures and files</p>
-            </div>
-            <div class="flex flex-col items-center">
-                <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
-                    <img src="/img/new/feature-7.svg" alt="" class="dark:hidden"/>
-                    <img src="/img/new/feature-7-dark.svg" alt="" class="hidden dark:block"/>
+            
+                <div class="flex flex-col items-center">
+                    <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
+                        <img src="/img/new/feature-7.svg" alt="" class="dark:hidden"/>
+                        <img src="/img/new/feature-7-dark.svg" alt="" class="hidden dark:block"/>
+                    </div>
+                    <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">Disappearing messages (comings soon)</p>
                 </div>
-                <p class="text-grey-black dark:text-white text-[16px] text-center font-medium w-full max-w-[265px]">Portable chat database – easily move your profile to another device.</p>
-            </div>
-            <div class="flex flex-col items-center">
-                <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
-                    <img src="/img/new/feature-8.svg" alt="" class="dark:hidden"/>
-                    <img src="/img/new/feature-8-dark.svg" alt="" class="hidden dark:block"/>
+            
+                <div class="flex flex-col items-center">
+                    <div class="bg-white flex items-center justify-center w-[175px] h-[110px] rounded-[20px] border-[#859096] border-solid border-[1px] shadow-[2px_2px_0px_#859096] dark:border-none dark:shadow-none mb-[20px] border-gradient">
+                        <img src="/img/new/feature-8.svg" alt="" class="dark:hidden"/>
+                        <img src="/img/new/feature-8-dark.svg" alt="" class="hidden dark:block"/>
+                    </div>
+                    <p class="text-grey-black dark:text-white text-[16px] font-medium text-center w-full max-w-[265px]">Disappearing messages (comings soon)</p>
                 </div>
-                <p class="text-grey-black dark:text-white text-[16px] text-center font-medium w-full max-w-[265px]">Incognito</p>
-            </div>
+            
         </div>
     </div>
 </section>
 
 
-<!-- what makes simplex private -->
 <section class="bg-primary-bg-light dark:bg-primary-bg-dark py-[85px] overflow-hidden">
     <div class="container scale-100">
         <p class="text-grey-black dark:text-white text-[45px] text-center font-bold mb-[60px]">What makes SimpleX <span class="gradient-text">private</span></p>
@@ -436,156 +504,187 @@ themeCheck();
         <div class="swiper private-swiper overflow-hidden px-4 py-2">
             <div class="swiper-wrapper mb-14">
 
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-1.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-1-dark.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">2-layers of end-to-end encryption</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center"> 1) double-ratchet protocol (OTR messaging with forward secrecy and break-in recovery),</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">2) e2e encryption in each queue to prevent traffic correlation between queues in case TLS is compromised.</p>
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-1.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-1-dark.svg" alt=""/>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-2.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-2-dark.svg" alt="" /> 
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Additional layer of server encryption</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">2-layers of end-to-end encryption</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Double-ratchet protocol (OTR messaging with forward secrecy and break-in recovery).</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">E2E encryption in each queue to prevent traffic correlation between queues in case TLS is compromised.</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                     </div>
-                </div>
-
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-3.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-3-dark.svg" alt="" /> 
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Secure TLS 1.2/1.3</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-2.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-2-dark.svg" alt=""/>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-4.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-4-dark.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Optional access via Tor</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Additional layer of server encryption</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                     </div>
-                </div>
-
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-5.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-5-dark.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Multiple layers of content padding</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-3.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-3-dark.svg" alt=""/>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-6.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-6-dark.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Out-of-band key exchange</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Secure TLS 1.2/1.3</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                     </div>
-                </div>
-
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-7.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-7-dark.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Message integrity is guaranteed</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-4.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-4-dark.svg" alt=""/>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-8.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-8-dark.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Message mixing to prevent correlation</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Optional access via Tor</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                     </div>
-                </div>
-
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-9.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-9-dark.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Unidirectional network</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-5.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-5-dark.svg" alt=""/>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
-                    <div class="flex items-center justify-center py-12 px-6 h-[322px]">
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-10.svg" alt="" />
-                        <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-10-dark.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
-                        <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Temporary ephemeral pairwise identifiers</p>
-                        <div class="flex-1 py-6 flex flex-col gap-4">
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
-                            <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Multiple layers of content padding</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                         </div>
-                        <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
                     </div>
-                </div>
-
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-6.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-6-dark.svg" alt=""/>
+                        </div>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Out-of-band key exchange</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
+                        </div>
+                    </div>
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-7.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-7-dark.svg" alt=""/>
+                        </div>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Message integrity is guaranteed</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
+                        </div>
+                    </div>
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-8.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-8-dark.svg" alt=""/>
+                        </div>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Message mixing to prevent correlation</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
+                        </div>
+                    </div>
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-9.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-9-dark.svg" alt=""/>
+                        </div>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Unidirectional network</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
+                        </div>
+                    </div>
+                
+                    <div class="card swiper-slide relative h-[460px] rounded-[20px] bg-card-bg-light dark:bg-card-bg-dark border-[#859096] border-solid border-[1px] dark:border-none shadow-[2px_2px_0px_#859096] dark:shadow-none overflow-hidden">
+                        <div class="flex items-center justify-center py-12 px-6 h-[322px]">
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] dark:hidden" src="/img/new/private-10.svg" alt=""/>
+                            <img class="w-full max-w-[223px] h-full max-h-[226px] hidden dark:block" src="/img/new/private-10-dark.svg" alt=""/>
+                        </div>
+                        <div class="flex flex-col items-center justify-between h-[138px] absolute bottom-0 py-6 px-8 bg-card-desc-bg-light dark:bg-card-desc-bg-dark rounded-b-[20px]">
+                            <p class="text-grey-black dark:text-white text-[18px] my-4 font-bold leading-[26px] tracking-[0.01em] text-center">Temporary ephemeral pairwise identifiers</p>
+                            <div class="flex-1 py-6 flex flex-col gap-4">
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, labore.</p>
+                                
+                                    <p class="text-grey-black dark:text-white text-[14px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur!</p>
+                                
+                            </div>
+                            <p class="text-grey-black dark:text-white text-[12px] text-center">Tap to close</p>
+                        </div>
+                    </div>
+                
             </div>
 
             <img class="fixed left-4 top-[55%] swiper-button-prev hidden md:inline-block dark:hidden" src="/img/new/arrow-left.svg" alt="">
@@ -598,7 +697,6 @@ themeCheck();
 </section>
 
 
-<!------------------------------NETWORK---------------------------------------------------------------------->
 <section class="bg-secondary-bg-light dark:bg-secondary-bg-dark py-[85px]">
     <div class="container">
         <p class="text-grey-black dark:text-white text-[45px] text-center font-bold mb-[21px]">SimpleX <span class="gradient-text">Network</span></p>
