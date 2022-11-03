@@ -1566,6 +1566,10 @@ video {
   padding-bottom: 50px;
 }
 
+.pt-\[66px\] {
+  padding-top: 66px;
+}
+
 .pt-14 {
   padding-top: 3.5rem;
 }
@@ -2326,12 +2330,12 @@ video {
     display: none;
   }
 
-  .dark .dark\:lg\:bg-none {
-    background-image: none;
-  }
-
   .dark .dark\:lg\:bg-gradient-radial {
     background-image: radial-gradient(88.77% 102.03% at 92.64% -13.22%, #17203D 0%, #0C0B13 100%);
+  }
+
+  .dark .dark\:lg\:bg-none {
+    background-image: none;
   }
 }
 
