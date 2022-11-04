@@ -1526,16 +1526,16 @@ video {
   fill: #3F484B;
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-12 {
+  padding: 3rem;
 }
 
 .p-3 {
@@ -1554,14 +1554,19 @@ video {
   padding: 3.5rem;
 }
 
-.py-\[85px\] {
-  padding-top: 85px;
-  padding-bottom: 85px;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-\[85px\] {
+  padding-top: 85px;
+  padding-bottom: 85px;
 }
 
 .px-\[34px\] {
