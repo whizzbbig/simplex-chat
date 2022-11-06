@@ -723,6 +723,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-\[30\] {
+  margin-bottom: 30;
+}
+
 .mt-auto {
   margin-top: auto;
 }
