@@ -223,6 +223,12 @@ header nav {
     }
 }
 
+@media (max-width: 520px) {
+    .landing-page-header-article-paragraph {
+        width: auto;
+    }
+}
+
 @media (min-width:1024px) {
 
   .nav-link:hover .sub-menu,
