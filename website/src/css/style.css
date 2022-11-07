@@ -461,20 +461,30 @@ header{
 }
 
 #hero-phone-video {
-  position: absolute;
-  border-radius: 12px;
-  animation-name: none;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-
-  width: 256px;
-  height: 595px;
-  margin-left: 0.3rem;
-  margin-bottom: 2.8rem;
+    position: absolute;
+    border-radius: 10px;
+    animation-name: none;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 32px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    height: 580px;
+    width: 256px;
+    margin-left: 0.3rem;
+    margin-bottom: 0.1rem;
 }
 
 .description {
     width: 31rem;
+}
+
+@media (max-width: 1400px) {
+    #hero-phone-video {
+        border-radius: 15px;
+        height: 500px;
+        width: 227px;
+        margin-bottom: -0.7rem;
+      }
 }
 
 @keyframes small {
