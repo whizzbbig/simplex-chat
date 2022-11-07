@@ -213,6 +213,16 @@ header nav {
   transform: rotate(180deg);
 }
 
+@media (max-width: 1400px) {
+    .landing-page-header-article-paragraph {
+        width: 21rem;
+    }
+
+    .socials {
+        flex-wrap: nowrap;
+    }
+}
+
 @media (min-width:1024px) {
 
   .nav-link:hover .sub-menu,
@@ -483,7 +493,11 @@ header{
         border-radius: 15px;
         height: 500px;
         width: 227px;
-        margin-bottom: -0.7rem;
+        margin-bottom: 4.7rem;
+      }
+
+      #hero-phone-light, #hero-phone-dark {
+        margin-bottom: 5rem;
       }
 }
 
