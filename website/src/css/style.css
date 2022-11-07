@@ -223,7 +223,7 @@ header nav {
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 1280px) {
     .landing-page-header-article-paragraph {
         width: auto;
     }
